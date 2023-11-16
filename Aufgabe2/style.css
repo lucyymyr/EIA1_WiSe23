@@ -1,0 +1,29 @@
+.intro {
+    color: darkgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+}
+
+.middle {
+    color: rgb(82, 12, 148);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+
+.outro {
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+}
+
+html{
+    background-color: rgb(173, 99, 146);
+}
