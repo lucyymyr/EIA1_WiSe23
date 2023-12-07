@@ -41,7 +41,6 @@ if (genreSelection == startArray[1]) {
 }
 
 
-
 else if (genreSelection == startArray[2]) {
     let bookSelection = prompt(romanceArray[0]);
     if (bookSelection == romanceArray[1]) {
