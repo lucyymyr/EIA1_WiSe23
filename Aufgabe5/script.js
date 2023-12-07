@@ -31,7 +31,7 @@ let genreSelection = prompt(startArray[0]);
 
 console.log(genreSelection);
 if (genreSelection == startArray[1]) {
-    let bookSelection = prompt(fantasyArray[0]);
+    const bookSelection = selection(fantasyArray[0]);
     if (bookSelection == fantasyArray[1]) {
         alert(endArray[0]);
     }
@@ -40,18 +40,20 @@ if (genreSelection == startArray[1]) {
     }
 }
 
+function selection(story) {
+    const answer = prompt(story)
+    return answer
+}
 
-else if (genreSelection == startArray[2]) {
-    let bookSelection = prompt(romanceArray[0]);
+
+if (genreSelection == startArray[2]) {
+    const bookSelection = selection(romanceArray[0]);
     if (bookSelection == romanceArray[1]) {
         alert(endArray[2]);
     }
     else if (bookSelection == romanceArray[2]) {
         alert(endArray[3]);
     }
-}
-
-
-else {
+} else {
     console.log("Error");
-} 
+}
