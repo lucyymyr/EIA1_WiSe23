@@ -1,0 +1,14 @@
+
+
+html{
+    background-color: rgb(47, 15, 42);
+    color: beige;
+    position: relative;
+    top: 200px;
+    left: calc((100% - 400px)/2);
+    width: 400px;
+    border: 2px solid rgb(224, 187, 224);
+    padding: 50px
+
+
+}
